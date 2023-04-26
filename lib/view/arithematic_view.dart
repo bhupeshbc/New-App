@@ -22,14 +22,14 @@ class _ArithmeticViewState extends State<ArithmeticView> {
   void add() {
     arithmetic = Arithmetic();
     setState(() {
-      result = arithmetic.add(first : first, second: second);
+      result = arithmetic.add(first: first, second: second);
     });
   }
 
   void sub() {
     arithmetic = Arithmetic();
     setState(() {
-      result = arithmetic.sub(first: first,second : second);
+      result = arithmetic.sub(first: first, second: second);
     });
   }
 
@@ -54,7 +54,7 @@ class _ArithmeticViewState extends State<ArithmeticView> {
                 decoration: InputDecoration(
                   hintText: 'Enter first no',
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(40),
                   ),
                 ),
               ),
@@ -66,7 +66,7 @@ class _ArithmeticViewState extends State<ArithmeticView> {
                 decoration: InputDecoration(
                   labelText: 'Enter second no',
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(40),
                   ),
                 ),
               ),

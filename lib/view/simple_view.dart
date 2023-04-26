@@ -35,7 +35,7 @@ class _SimpleInterestState extends State<SimpleInterest> {
               decoration: InputDecoration(
                 hintText: 'Enter the Principle',
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(40),
                 ),
               ),
             ),
@@ -48,7 +48,7 @@ class _SimpleInterestState extends State<SimpleInterest> {
               decoration: InputDecoration(
                 hintText: 'Enter the Time in years',
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(40),
                 ),
               ),
             ),
@@ -61,7 +61,7 @@ class _SimpleInterestState extends State<SimpleInterest> {
               decoration: InputDecoration(
                 hintText: 'Enter the Rate in %',
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(40),
                 ),
               ),
             ),
@@ -69,7 +69,7 @@ class _SimpleInterestState extends State<SimpleInterest> {
             ElevatedButton(
               onPressed: () {
                 setState(() {
-                  interest = (principle * time * rate) / 100;
+                  interest = (principle * time * rate) / 40;
                 });
               },
               child: const Text('Calculate Interest'),

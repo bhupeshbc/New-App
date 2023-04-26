@@ -1,6 +1,3 @@
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-
 // class Dashboard extends StatelessWidget {
 //   const Dashboard({super.key});
 
@@ -71,6 +68,20 @@ class Dashboard extends StatelessWidget {
                   Navigator.pushNamed(context, '/richTextRoute');
                 },
                 child: const Text('Rich Text'),
+              ),
+            ),
+          ),
+          const SizedBox(height: 16),
+          SizedBox(
+            width: double.infinity,
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: ElevatedButton(
+                onPressed: () {
+                  // Navigate to the Simple Interest Calculator page
+                  Navigator.pushNamed(context, '/columnRoute');
+                },
+                child: const Text('Column'),
               ),
             ),
           ),

@@ -43,7 +43,7 @@ class _CircleViewState extends State<CircleView> {
                 decoration: InputDecoration(
                   hintText: 'Enter the radius',
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(40),
                   ),
                 ),
               ),

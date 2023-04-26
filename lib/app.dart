@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:new_app/view/Area_view.dart';
 
 import 'view/arithematic_view.dart';
+import 'view/column_view.dart';
 import 'view/dashboard.dart';
 import 'view/rich_view.dart';
 import 'view/simple_view.dart';
@@ -25,6 +26,7 @@ class App extends StatelessWidget {
         '/siRoute': (context) => const SimpleInterest(),
         '/radiusRoute': (context) => const CircleView(),
         '/richTextRoute': (context) => const RichTextView(),
+        '/columnRoute': (context) => const ColumnView(),
       },
     );
   }
