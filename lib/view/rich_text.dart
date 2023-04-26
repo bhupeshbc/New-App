@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class RichTextView extends StatelessWidget {
   const RichTextView({super.key});
@@ -11,9 +9,19 @@ class RichTextView extends StatelessWidget {
       appBar: AppBar(
         title: const Text('RichText'),
       ),
-      body: const Center(
-        child: Text('hello world'),
-      )
+      body: Container(
+        color: Colors.blueGrey,
+        width: double.infinity,
+        height: double.infinity,
+        child: const Text(
+          'hello world',
+          style: TextStyle(
+            fontSize: 69,
+            fontWeight: FontWeight.bold,
+            color: Colors.deepPurple,
+          ),
+        ),
+      ),
     );
   }
 }
