@@ -60,6 +60,20 @@ class Dashboard extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(height: 16),
+          SizedBox(
+            width: double.infinity,
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: ElevatedButton(
+                onPressed: () {
+                  // Navigate to the Simple Interest Calculator page
+                  Navigator.pushNamed(context, '/richTextRoute');
+                },
+                child: const Text('Rich Text'),
+              ),
+            ),
+          ),
         ],
       ),
     );

@@ -3,6 +3,7 @@ import 'package:new_app/view/Area_view.dart';
 
 import 'view/arithematic_view.dart';
 import 'view/dashboard.dart';
+import 'view/rich_text.dart';
 import 'view/simple_view.dart';
 
 
@@ -26,6 +27,7 @@ class App
         '/arithmeticRoute' :(context) => const ArithmeticView(),
         '/siRoute' :(context) =>  const SimpleInterest(),
         '/radiusRoute' :(context) =>  const CircleView(),
+        '/richTextRoute' :(context) =>  const RichTextView(),
       },
    
     );
